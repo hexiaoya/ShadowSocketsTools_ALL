@@ -1,0 +1,44 @@
+{
+  "configs": [
+    {
+      "server": "us1.iss.tf",
+      "server_port": 443,
+      "password": "17266924",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false
+    },
+    {
+      "server": "us2.iss.tf",
+      "server_port": 8989,
+      "password": "02605237",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false
+    },
+    {
+      "server": "jp3.iss.tf",
+      "server_port": 443,
+      "password": "05142838",
+      "method": "aes-256-cfb",
+      "remarks": "",
+      "auth": false
+    }
+  ],
+  "strategy": "com.shadowsocks.strategy.balancing",
+  "index": -1,
+  "global": false,
+  "enabled": false,
+  "shareOverLan": false,
+  "isDefault": false,
+  "localPort": 8087,
+  "pacUrl": null,
+  "useOnlinePac": false,
+  "availabilityStatistics": false,
+  "autoCheckUpdate": true,
+  "isVerboseLogging": false,
+  "logViewer": null,
+  "useProxy": false,
+  "proxyServer": null,
+  "proxyPort": 0
+}
